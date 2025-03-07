@@ -8,12 +8,19 @@ This script automates the installation and configuration of ConfigServer Securit
 
 ## Usage
 
-1. Clone the repository or download the script.
-2. Make the script executable:
+1. Clone the repository or download the script:
+    ```bash
+    git clone https://github.com/chunghieu1/csf-directadmin-installer.git  
+    ```
+2. Change to the script directory: 
+    ```bash
+    cd csf-directadmin-installer
+    ```
+3. Make the script executable:
     ```bash
     chmod +x install_csf.sh
     ```
-3. Run the script as root:
+4. Run the script as root:
     ```bash
     sudo ./install_csf.sh
     ```
