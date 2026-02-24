@@ -14,7 +14,7 @@ dnf install perl-libwww-perl perl-Math-BigInt wget -y
 
 echo "Downloading CSF..."
 cd /usr/src
-wget https://download.configserver.com/csf.tgz
+wget https://download.configserver.dev/csf.tgz
 
 echo "Extracting and installing CSF..."
 tar -xzf csf.tgz
